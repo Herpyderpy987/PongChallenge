@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://c6vq8h2sr302o"]
+
+[ext_resource type="Texture2D" uid="uid://c8q561704gjnl" path="res://assets/PongBackgroundGreen.png" id="1_fvpdw"]
+[ext_resource type="Texture2D" uid="uid://dak1782n6sgn4" path="res://assets/Pong1.png" id="2_x0yno"]
+
+[node name="Main" type="Node2D"]
+
+[node name="PongBackgroundGreen" type="Sprite2D" parent="."]
+position = Vector2(5, 5)
+texture = ExtResource("1_fvpdw")
+
+[node name="Pong1" type="Sprite2D" parent="."]
+position = Vector2(-800, 0)
+scale = Vector2(2, 3)
+texture = ExtResource("2_x0yno")
+
+[node name="Pong2" type="Sprite2D" parent="."]
+position = Vector2(800, 0)
+scale = Vector2(2, 3)
+texture = ExtResource("2_x0yno")
